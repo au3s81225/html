@@ -1,0 +1,68 @@
+#inp {
+    width: 900px; 
+    height: 100px;
+    font-size: 20px;
+}
+
+#container {
+display: flex;
+background-color: #526E89;
+width: 900px; 
+}
+
+#find {
+    margin: 50px auto;
+}
+
+#allnum {
+    border-style: solid;
+    border-radius: 20px;
+    margin: 50px auto;
+    width: 120px;
+    height: 120px;
+}
+
+#stock-inp {
+    text-align: center;
+}
+
+#stock {
+    /* border-style: solid;
+    background: black; */
+    border-radius: 20px;
+    margin: 50px auto;
+    width: 200px; 
+    height: 200px; 
+}
+
+.stock-data {
+    background: #d88f03;
+    margin: 5px;
+    /* line-height: 50px; */
+    text-align: center;
+    /* font-size: 30px; */
+    cursor: pointer;
+}
+
+#counter {
+    border-style: solid;
+    background: black;
+    border-radius: 20px;
+    margin: 50px auto;
+    width: 300px;
+    height: 190px;
+}
+
+.operators {
+    background: #d88f03;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
